@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="e-ticaret.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="giris-ekrani.html">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logodiv"><a href="http://127.0.0.1:5500/js/DOM-JS/e-ticaret/e-ticaret.html"><img id="logoimg" src="Resimler/vblogo.jpg" alt=""></a></div> 
+        <div id="arainputdiv"><input  id="arainput" type="text" name="" placeholder="Lütfen Aramak İstediğiniz Ürünü Yazın">
+       <i id="araicon" class="fa-solid fa-magnifying-glass fa-sm" style="color: #0948b3;"></i></div>
+    <div id="hesap-sepet-div">
+        <ul class="hesapul"> 
+            <li class="hesapli"><button id="hesapbtn"><i id="hesapicon" class="fa-solid fa-user" style="color: #ffffff;"></i><h3 id="hesapp">Giriş</h3><i id="downicon" class="fa-solid fa-chevron-down" style="color: #ffffff;"></i></button>
+            <ul class="hesapulalt">
+                <li class="hesaplialt"><a class="aaa" href="http://127.0.0.1:5500/js/DOM-JS/e-ticaret/giris-ekrani.html"><h3 id="hesaplialth3">Giriş Yap</h3></a></li>
+                <li class="hesaplialt"><a  class="aaa" href="http://127.0.0.1:5500/js/DOM-JS/e-ticaret/kayit-ekrani.html"><h3 id="hesaplialth3">Kayıt Ol</h3></a></li>
+            </ul>
+            </li>
+            <li class="hesapli2" id="hesapli"><button id="hesapbtn"><i id="hesapicon2" class="fa-solid fa-user" style="color: #ffffff;"></i><h3 id="hesappsepet">Sepet</h3><i id="downicon2" class="fa-solid fa-chevron-down" style="color: #ffffff;"></i></button>
+            <ul>
+                <div id="sepetaltdiv">
+                </div>
+                
+                </div>
+            </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <div class="clearfix"></div>
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+
+    <nav role="navigation" class="primary-navigation">
+      <ul class="navul">
+        <li><a href="#">Bilgisayar &dtrif;</a>
+            <ul class="dropdown">
+                <li><a href="masaustu-pc.html">Masaüstü</a></li>
+                <li><a href="#">Notebook</a></li>
+                
+              </ul></li>
+        <li><a href="#">Monitör &dtrif;</a>
+          <ul class="dropdown">
+            <li><a href="oyuncu-m.html">Oyuncu Monitörü</a></li>
+            <li><a href="#">İş Monitörü</a></li>
+           
+          </ul>
+        </li>
+        <li><a href="#">Oyuncu Ekipmanları &dtrif;</a>
+            <ul class="dropdown">
+                <li><a href="#">Klavye</a></li>
+                <li><a href="#">Mouse</a></li>
+                <li><a href="#">Kulaklık</a></li>
+
+               
+              </ul></li>
+              <li><a href="#">Oyun Konsolları &dtrif;</a>
+                <ul class="dropdown">
+                  <li><a href="#">Xbox Serisi</a></li>
+                  <li><a href="#">Playstation Serisi</a></li>
+                 
+                </ul>
+              </li>
+      </ul>
+    </nav>
+    
+    <div class="clearfix"></div>
+    <div id="okudiv">
+        <p id="okup">Bu Site Eğitim Amacaıyla CSS JS HTML Kullanılarak Yapılmıştır Sitenin <br> Site Arama Alanı:"oyuncu monitörü" ve "masaüstü" arama komutları geçerlidir <br> navbar: Sitenin Navbar Kısmındaki Linklerin Sadece "Masaüstü" ve "Oyuncu Monitörü Kullanıma Açıktır" <br> Sepete Ekle Ve Sepet: Bütün Ürünler Sepete Eklenebilmekte  </p>
+        <button id="lutfenokubtn"> Lütfen okuyun</button>
+    </div>
+    <div class="clearfix"></div>
+
+
+    <a href="urun.html">  <div id="urunlerdiv">
+        <div id="urunler"><img class="urunlerimg" src="Resimler/ae1.webp" alt="">
+        <h1 class="urunlerh1isim">MacBook Air</h1>
+        <h2 class="urunlerh2fiyat">17.999</h2>
+        <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+        </div>
+    </a>
+        <div id="urunlerdiv">
+            <div id="urunler"><img class="urunlerimg" src="Resimler/ae3.webp" alt="">
+            <h1 class="urunlerh1isim">İphone 11</h1>
+            <h2 class="urunlerh2fiyat">13.229</h2>
+            <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+            </div> <div id="urunlerdiv">
+                <div id="urunler"><img class="urunlerimg" src="Resimler/ae2.webp" alt="">
+                <h1 class="urunlerh1isim">MacBook Air</h1>
+                <h2 class="urunlerh2fiyat">17.999</h2>
+                <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                </div> <div id="urunlerdiv">
+                    <div id="urunler"><img class="urunlerimg" src="Resimler/bilgisayar2.png" alt="">
+                    <h1 class="urunlerh1isim">MacBook Pro</h1>
+                    <h2 class="urunlerh2fiyat">17.999</h2>
+                    <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                    </div> <div id="urunlerdiv">
+                        <div id="urunler"><img class="urunlerimg" src="Resimler/ae4.webp" alt="">
+                        <h1 class="urunlerh1isim">MacBook Air</h1>
+                        <h2 class="urunlerh2fiyat">17.999</h2>
+                        <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                        </div> <div id="urunlerdiv">
+                            <div id="urunler"><img class="urunlerimg" src="Resimler/tel-3.png" alt="">
+                            <h1 class="urunlerh1isim">Redmi Note 10</h1>
+                            <h2 class="urunlerh2fiyat">9500</h2>
+                        <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+                            
+                            </div> <div id="urunlerdiv">
+                                <div id="urunler"><img class="urunlerimg" src="Resimler/ae7.gif" alt="">
+                                <h1 class="urunlerh1isim">Vooka Togo</h1>
+                                <h2 class="urunlerh2fiyat">999</h2>
+                                <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                                </div>
+        <div id="urunlerdiv">
+            <div id="urunler"><img class="urunlerimg" src="Resimler/tel-1.png" alt="">
+            <h1 class="urunlerh1isim">İphone 14 Pro</h1>
+            <h2 class="urunlerh2fiyat">28.500</h2>
+            <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+            </div>
+            <div id="urunlerdiv">
+                <div id="urunler"><img class="urunlerimg" src="Resimler/kulaklık-1.png" alt="">
+                <h1 class="urunlerh1isim">Razer Kulaklık</h1>
+                <h2 class="urunlerh2fiyat">3250</h2>
+                <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                </div> <div id="urunlerdiv">
+                    <div id="urunler"><img class="urunlerimg" src="Resimler/ae6.webp" alt="">
+                    <h1 class="urunlerh1isim">Razer Klavye</h1>
+                    <h2 class="urunlerh2fiyat">1500</h2>
+                    <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                    </div>
+                    <div id="urunlerdiv">
+                        <div id="urunler"><img class="urunlerimg" src="Resimler/kulaklık-3.png" alt="">
+                        <h1 class="urunlerh1isim">MacBook Air</h1>
+                        <h2 class="urunlerh2fiyat">17.999</h2>
+                        <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                        </div>
+                        <div id="urunlerdiv">
+                            <div id="urunler"><img class="urunlerimg" src="Resimler/ae5.webp" alt="">
+                            <h1 class="urunlerh1isim">İphone 14 Pro</h1>
+                            <h2 class="urunlerh2fiyat">28.500</h2>
+                            <button class="btn sepetekle" data-urun-id="1">Sepete Ekle</button>
+
+                            </div>
+                            <div class="clearfix"></div>
+                           <div id="dahafazladiv"><h3 id="dahafazlah3">Daha Fazla</h3><i id="dahafazlaicon" class="fa-solid fa-circle-plus fa-beat"></i></div>
+                            
+    <script src="e-ticaret.js"></script>
+    <script defer src="e-ticaret.js"></script>
+    <script>
+        $(document).ready($("#okup").hide("fast"))
+        $(document).ready(function(){
+            $("#lutfenokubtn").click(function(){
+                $("#okup").slideToggle("slow")
+            });
+           
+        })
+
+        
+    </script>
+</body>
+</html>
